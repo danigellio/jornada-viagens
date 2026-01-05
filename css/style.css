@@ -1,3 +1,11 @@
+/*backgroud
+botoes
+coresde texto*/
+:root{
+     --background-primary-color: #ffffff;
+     --backgrouound-secondary-color: #f5f5f5;
+     --backgrouound-tertiary-color: #0000;
+}
 *{
      margin: 0;
      padding: 0;
