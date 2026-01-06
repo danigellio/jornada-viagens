@@ -2,7 +2,7 @@
   font-family: "Montserrat";
   src: url(../fonts/Montserrat-VariableFont_wght.ttf);
   font-style: normal;
-  font-display: swap; /*Mostra o texto imediatamente com fonte padrão e troca depois pela fonte personalizada*/
+  font-display: swap; /*Mostra o texto imediatamente com fonte padrão e troca depois pela fonte personalizada*/ 
 }
 /*testando*/
 /*Backgroud
@@ -29,6 +29,4 @@ Cores de texto*/
   padding: 0;
   box-sizing: border-box;
 }
-h1 {
-  color: var(--text-primary-color);
-}
+
