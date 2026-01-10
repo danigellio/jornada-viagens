@@ -1,0 +1,78 @@
+header{
+     
+     background-color: var(--backgrouound-tertiary-color);
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     padding: 38px 48px;
+     position: relative;
+     
+}
+.logo{ 
+     display: inline-block;
+     width: 68px;
+     height: 64px;
+     
+
+}.navigation-menu{
+     margin-top: 24px;
+}
+
+input[type="checkbox"]:checked ~ nav{
+     display: block;
+     /* ~ pega o primeiro irmao da input, ou seja o que vem logo em seguida*/
+     position: absolute;
+     top: 100%; /*fica 100% relativo ao tamanho da nav*/
+     left: 0;
+     width: 100%; /*ocupa 100% da tela disponivel*/
+     background-color: var(--backgrouound-tertiary-color);
+     
+
+}
+nav{
+     display: none;
+     
+}
+.list-links{
+     list-style-type: none;
+     
+}
+.list-links li{
+     margin: 16px 16px ; /*para mobile temos que ter pelo menos 16 px acima e abaixo para o tato do dedo clicar*/
+}
+.list-links a{
+     color: var(--text-secondary-color);
+     text-decoration: none;
+     font-weight: var(--menu-text-weight);
+
+     
+}
+@media screen and (min-width: 768px){
+     header{
+          align-items: center;
+     }
+     .navigation-menu{
+     margin-top: 0;
+     width: 467px;
+    
+
+
+    }
+    .navigation-menu label {
+     display: none;
+    }
+    .navigation-menu nav {
+     display: block;
+    }
+    .navigation-menu ul{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     
+     background-color: aqua;
+    }
+    .navigation-menu ul li {
+     margin:0 ;
+
+    }
+}
