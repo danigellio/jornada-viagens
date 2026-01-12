@@ -11,6 +11,12 @@ header {
   width: 68px;
   height: 64px;
 }
+.logo-mobile{
+  display: block;
+}
+.logo-desktop{
+  display: none;
+}
 .navigation-menu {
   margin-top: 24px;
 }
@@ -32,11 +38,15 @@ nav {
 }
 .list-links li {
   margin: 16px 16px; /*para mobile temos que ter pelo menos 16 px acima e abaixo para o tato do dedo clicar*/
+  
 }
 .list-links a {
   color: var(--text-secondary-color);
   text-decoration: none;
   font-weight: var(--menu-text-weight);
+  display: inline-block;
+  padding: 12px;
+  
 }
 @media screen and (min-width: 768px) {
   header {
@@ -57,13 +67,36 @@ nav {
     justify-content: space-between;
     align-items: center;
 
-    background-color: aqua;
+    
   }
   .navigation-menu ul li {
     margin: 0;
   }
+  .list-links a:hover{
+  color: var(--primary-color);
+  
+}
 }
 
-@media screen and (min) {
-     
+@media screen and (min-width:1024px) {
+  header{
+    padding: 38px 120px ;
+  }
+  .logo{
+    width: 260px;
+    height: 64px;
+  }
+   .logo-mobile{
+    display: none;
+   }  
+   .logo-desktop{
+    display: block;
+   }
 }
+@media screen and (min-width:1940px){
+ header{
+  padding: 38px 160px ;
+ }
+}
+
+
