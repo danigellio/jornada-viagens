@@ -53,6 +53,10 @@ body {
   color: var(--text-secondary-color);
   background-color: var(--primary-color);
   font-weight: var(--title-weight);
+  display: inline-block;
+  text-decoration: none;
+  line-height: 64px; /*texto centraliza*/
+  
 }
 
 
