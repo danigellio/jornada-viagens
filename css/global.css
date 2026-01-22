@@ -2,7 +2,7 @@
   font-family: "Montserrat";
   src: url(../fonts/Montserrat-VariableFont_wght.ttf);
   font-style: normal;
-  font-display: swap; /*Mostra o texto imediatamente com fonte padrão e troca depois pela fonte personalizada*/ 
+  font-display: swap; /*Mostra o texto imediatamente com fonte padrão e troca depois pela fonte personalizada*/
 }
 /*testando*/
 /*Backgroud
@@ -20,7 +20,7 @@ Cores de texto*/
   --text-secondary-color: #ffffff;
 
   --title-weight: 700;
-  --title-weight: 400;
+  --text-weight: 400;
   --menu-text-weight: 500;
 }
 /*css reset*/
@@ -29,6 +29,25 @@ Cores de texto*/
   padding: 0;
   box-sizing: border-box;
 }
-body{
+body {
   font-family: "Montserrat";
+  color: var(--text-primary-color);
+}
+.section-title h2 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin: 0;
+  text-align: center;
+}
+.section-title hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px auto 32px;
+}
+@media screen and (min-width: 768px) {
+  .section-title h2 {
+    font-size: 32px;
+  }
 }
