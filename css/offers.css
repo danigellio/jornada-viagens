@@ -1,3 +1,11 @@
+.offers-cards{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 24px;
+
+}
 .card {
      color: var(--text-secondary-color);
      background-color: rgb(19, 18, 18);
@@ -7,6 +15,7 @@
      box-sizing: border-box;
      border-radius: 16px;
      text-align: center;
+     
      
     
 }
