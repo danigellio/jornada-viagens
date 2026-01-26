@@ -53,6 +53,10 @@ body {
   color: var(--text-secondary-color);
   background-color: var(--primary-color);
   font-weight: var(--title-weight);
+  display: inline-block;
+  text-decoration: none;
+  line-height: 64px; /*texto centraliza*/
+  
 }
 
 
@@ -61,4 +65,9 @@ body {
   .section-title h2 {
     font-size: 32px;
   }
+}
+@media screen and  (min-width: 1024px) {
+  .button:hover{
+    background-color: var(--secondary-color)  }
+  
 }
