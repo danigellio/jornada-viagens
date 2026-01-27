@@ -33,6 +33,9 @@ body {
   font-family: "Montserrat";
   color: var(--text-primary-color);
 }
+.section-title {
+  padding-top: 88px;
+}
 .section-title h2 {
   font-size: 28px;
   font-weight: var(--title-weight);
