@@ -6,7 +6,7 @@
   background-position: center center;
 }
 .hero h2 {
-  padding: 88px 24px;
+  padding: 88px 24px 0 24px;
   margin: 0;
   font-weight: var(--text-weight);
   font-size: 20px;
