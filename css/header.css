@@ -1,4 +1,4 @@
-header {
+.header-main{
   background-color: var(--backgrouound-tertiary-color);
   display: flex;
   flex-direction: row;
@@ -49,7 +49,7 @@ nav {
   
 }
 @media screen and (min-width: 768px) {
-  header {
+  .header-main {
     align-items: center;
   }
   .navigation-menu {
@@ -79,7 +79,7 @@ nav {
 }
 
 @media screen and (min-width:1024px) {
-  header{
+  .header-main{
     padding: 28px 120px ;
   }
   .logo{
