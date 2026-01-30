@@ -28,14 +28,12 @@
      margin-top: 40px;
 }
 .destination-items .item h4 {
-     font-size: 34px;
-     font-weight: var(--title-weight);
      margin: 24px 0;
 
 }
 
 .destination-items .item p {
-     font-size: 20px;
+     
      margin-bottom: 24px;
 }
 .destinations .button{
@@ -43,7 +41,7 @@
 }
 
 
-@media screen and (min-width: 724px) {
+@media screen and (min-width: 768px) {
      .destinations{
      width: 648px;
 }
