@@ -5,6 +5,13 @@
   background-size: cover;
   background-position: center center;
 }
+.bottom-hero .bottom-hero_img{
+     background:url(../image/footerMobile.png)no-repeat;
+     width: 100%;
+     height: 400px;
+     background-size: cover;
+     margin: 16px auto 0;
+}
 .hero h2 {
   padding: 88px 24px 0 24px;
   margin: 0;
@@ -21,7 +28,11 @@
     background-size: cover;
     background-position: center;
   }
-
+.bottom-hero .bottom-hero_img{
+  height: 620px;
+  background: url(../image/footerTablet.png) no-repeat;
+  background-size: cover;
+}
   .hero h2 {
     padding: 88px 60px;
     font-size: 32px;
