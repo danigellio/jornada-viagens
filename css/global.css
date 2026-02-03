@@ -65,7 +65,7 @@ font-weight: var(--text-weight);
 line-height: 32px;
 }
 .button{
-  min-width: 280px;
+  min-width: 312px;
   height: 64px;
   border-radius:16px ;
   color: var(--text-secondary-color);
