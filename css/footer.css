@@ -3,12 +3,12 @@
      margin: 0 auto;
 }
 
-.footer-main .footer-container
+.footer-main .footer-content
 {
      background-color: var(--backgrouound-tertiary-color);
 
 }
-.footer-main .footer-container .footer-container_logo {
+.footer-main .footer-content .footer-content_logo {
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -17,19 +17,47 @@
     
      
 }
-.footer-main .footer-container .footer-container_logo img{
+.footer-main .footer-content .footer-content_logo img{
      margin-bottom: 16px;
 }
 
-.footer-main .footer-container .footer-container_logo p{
+.footer-main .footer-content .footer-content_logo p{
       text-align: center;
       color: #fff;
       line-height: 1.5;
+      font-weight: var(--title-weight);
 
       
      
 }
-.footer-main .footer-container .footer-container_redesSociais {
+.footer-main .footer-content .footer-social{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+
+}
+.footer-main .footer-content .footer-social p{
       text-align: center;
-      color: #fff;
+      color: #eeeeee;
+      font-weight: var(--title-weight);
+}
+
+.footer-main .footer-content .footer-social a img{
+     color: #fff;
+     width: 32px;
+     height: 32px;
+  
+}
+@media screen and (min-width:1024px){
+     .footer-content {
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+
+     }
+     .footer-main .footer-content .footer-content_logo{
+          align-items: flex-start;
+     }
+          
+          
 }
