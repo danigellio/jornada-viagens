@@ -15,3 +15,41 @@ background: url(/jornada-viagens/image/pacoresJapaogrid2.jpg) no-repeat;
      background: url(/jornada-viagens/image/Montagem\ japão\ 3.png) no-repeat;
      background-size: cover;
 }
+.bottom-hero_img.pacotes-footer_img{
+     background: url(/jornada-viagens/image/footerPacotes.jpg);
+     background-size: cover;
+     background-position: center;
+}
+@media screen and (min-width: 768px) {
+     .content-title.pacotes-title{
+          font-size: 40px;
+     }
+     .image-gallery.pacote-footter{
+          margin-top: 24px ;
+     }
+     .image.firstJapao{
+     background: url(/jornada-viagens/image/pacotes-gridTablet1.png) no-repeat;
+     background-size: cover;
+}
+.image.secondJapao {
+background: url(/jornada-viagens/image/pacotes-gridTablet2.png) no-repeat;
+     background-size: cover;
+}
+.image.thirdyJapao {
+     background: url(/jornada-viagens/image/pacotes-gridTablet3.png) no-repeat;
+     background-size: cover;
+}
+.footer-pacotes{
+     display: none;
+}
+}
+@media screen and (min-width: 1024px){
+
+     .payments-container_pacotes{
+          display: flex;
+          align-items: center;
+     }
+     .image-gallery.pacote-footter{
+          margin-top:0 ;
+     }
+}

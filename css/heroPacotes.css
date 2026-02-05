@@ -1,5 +1,7 @@
 /*pacotes*/
-
+ .list-links .active{
+     text-decoration: underline;
+    }
 .hero-img.hero-img_pacotes {
   background: url(/jornada-viagens/image/pacotesHero.jpg) no-repeat;
   background-size: cover;
@@ -27,4 +29,26 @@
      color: var(--text-secondary-color);
      margin: 32px 24px 65px;
      line-height: 32px;
+}
+
+@media screen and (min-width: 1024px) {
+   
+     .hero-img.hero-img_pacotes {
+  background: url(/jornada-viagens/image/pacotesHero\ -\ Copia.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  
+}
+.hero-pacotes-content{
+     padding:38px 24px;
+}
+.hero-title.hero-title-pacotes{
+     font-size: 48px;
+}
+.pacotes-hero-paragrafo{
+     width:380px;
+     font-size:32px;
+     line-height: 1.5;
+}
+     
 }
